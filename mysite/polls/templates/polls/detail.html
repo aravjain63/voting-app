@@ -1,6 +1,10 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{%static 'polls/style.css'%}">
+
 <h1>{{ question.question_text }}</h1>
 {% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
 
+<div class ="post">
 <form action="{% url 'polls:vote' question.id %}" method="post">
 <!---csrf is for security nothing useful-->
 {% csrf_token %}
@@ -10,3 +14,4 @@
 {% endfor %}
 <input type="submit" value="Vote">
 </form>
+</div>

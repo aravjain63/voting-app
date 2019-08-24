@@ -1,16 +1,32 @@
-
 body{
     background: url('https://www.technocrazed.com/wp-content/uploads/2015/12/black-wallpaper-to-set-as-background-38.jpg') center center no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Open Sans', sans-serif;
+
+
 }
+li a {
+color: white;
+text-decoration: none;
+}
+
 .post {
-    margin-bottom: 70px;
-    background: rgba(248, 248, 248, 0.825);opacity: 20;
-    padding: 50px 40px 50px 40px;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    background: black;
+    padding: 50px 50px 50px 50px;
+    margin-top: 50px;
     font-family: 'Lobster';
     font-size: 20;
-
+    color: white;
+    margin-right: 50;
+    margin-left: 50;
+    opacity: 100;
+  }
+  h1,h2,h3,h4 {
+    color: white;
+    font-family: 'Lobster';
+    font-size: 60;
+    text-transform: uppercase;
+    text-decoration:underline;
+    text-align: center;
   }
