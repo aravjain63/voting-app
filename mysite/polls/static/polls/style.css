@@ -1,7 +1,16 @@
-li a {
-  color: green;
+
+body{
+    background: url('https://www.technocrazed.com/wp-content/uploads/2015/12/black-wallpaper-to-set-as-background-38.jpg') center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
 }
-body {
-  background: black url("images/background.png") no-repeat;
-  background-position: center;
-}
+.post {
+    margin-bottom: 70px;
+    background: rgba(248, 248, 248, 0.825);opacity: 20;
+    padding: 50px 40px 50px 40px;
+    margin-top: 20px;
+    font-family: 'Lobster';
+    font-size: 20;
+
+  }

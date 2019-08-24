@@ -3,7 +3,7 @@ from .models import Question, Choice
 """"
 to add choices directly to one question,removing,admin.site.register(choice)
 """
-class ChoiceInline(admin.TabularInline):            #rep;ace tabular by stack
+class ChoiceInline(admin.TabularInline):            #replace tabular by stack
     model = Choice
     extra = 1
 
